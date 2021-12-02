@@ -19,13 +19,15 @@ client_scripts {
     '@es_extended/locale.lua',
     'client.lua',
     'config.lua',
-    'cl_boss.lua'
+    'cl_boss.lua',
+    'cl_cam.lua'
 }
 
 server_scripts {
     '@es_extended/locale.lua',
     '@mysql-async/lib/MySQL.lua',
-    'server.lua'
+    'server.lua',
+    'sv_cam.lua',
 }
 
 dependencies {
